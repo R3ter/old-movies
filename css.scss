@@ -1,0 +1,64 @@
+
+.all{
+    background-color:rgb(147, 196, 153); 
+}
+.top{
+    padding-top: 3rem;
+    h1{
+        
+        border-style: double;
+        border-width:1rem; 
+        display: inline;
+    }
+    form{
+        padding-top: 5rem;
+        // padding-bottom: 2rem;
+        input{
+            background-color: rgb(113, 241, 134);
+            border: none;
+            padding-right: 1rem;
+            
+        }
+        button{
+            border-radius: 1rem;
+            background-color:gray;
+            color: black;
+            border: none;
+            // padding:.5rem; 
+        }
+    }
+background-color:rgb(118, 119, 212);
+text-align: center;
+
+}
+.movies{
+    align-content: center;
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;    
+    img{
+        cursor: pointer;
+        border: 0rem;
+        width: 13rem;
+        height: 15rem;
+        
+    }
+    background-color: rgb(162, 233, 180) ;
+    
+    // padding: 2rem;
+   
+   
+}
+.watching{
+    text-align: center;
+    video{
+        width: 55rem;
+        height: 50;
+        
+    }
+}
+.noresult{
+    text-align: center;
+    padding: 5rem;
+    color: rgb(136, 1, 1);
+}

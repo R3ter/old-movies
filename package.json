@@ -1,0 +1,41 @@
+{
+  "name": "edit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server /",
+    "build": "webpack --watch",
+    "dev-server": "webpack-dev-server",
+    "start": "node server/serverjs",
+    "heroku-postbuild":"yarn run build:prod"
+  },
+  "dependencies": {
+    "ajv": "4.11.8",
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "1.0.0",
+    "express": "4.15.4",
+    "file-system": "^2.2.2",
+    "fs-extra": "^7.0.0",
+    "live-server": "^1.2.0",
+    "node-sass": "4.5.3",
+    "normalize.css": "^7.0.0",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-modal": "^3.5.1",
+    "react-router-dom": "4.2.2",
+    "sass-loader": "6.0.6",
+    "scss": "^0.2.4",
+    "style-loader": "0.18.2",
+    "validator": "8.0.0",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+  },
+  "devDependencies": {},
+  "author": "",
+  "description": ""
+}
